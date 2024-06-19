@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.nav{
+  background-color: #0a0a0a;
+}
+.borderring{
+  border-radius: 52% 42% 60% 58% / 50% 46% 55% 63% ;
+  animation: round 2s linear infinite;
+}
+
+p{
+  color: white;
+}
+
+@keyframes round{
+
+  0%{
+    border-radius: 52% 42% 60% 58% / 50% 46% 55% 63% ;
+  
+    
+  }
+  35%{
+    border-radius: 56% 41% 50% 58% / 47% 46% 53% 63% ;
+ 
+    
+  }
+  65%{
+    border-radius: 42% 48% 41% 58% / 45% 49% 55% 53% ;
+   
+    
+  
+  }
+  100%{
+    border-radius: 50% 42% 60% 58% / 51% 46% 54% 64% ;
+ 
+    
+  }
+}
+
+.borderring:hover{
+  border-radius: 50%;
+  animation: none;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.aboutmeimg{
+  filter: drop-shadow(5px 5px 10px #ffffff);
+}
+
+.boxshadow{
+  box-shadow: 5px 5px 10px #f70000;
+}
+.gallery{
+  
+  overflow-x: auto;
+}
+
+.card2{
+  border-radius: 20px;
+}
+
+.card3{
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background:linear-gradient(135deg,rgba(255,255,255,0.1), rgba(255,255,255,0)) ;
+  backdrop-filter: blur(10px);
+  transition: 0.8s;
+  }
+
+  .card3:hover{
+    transform: scale(1.1);
+  }
+
+  .customGrid{
+    display: grid;
+    grid-template-columns: 40% auto;
+     }
+
